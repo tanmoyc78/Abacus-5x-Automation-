@@ -1,0 +1,318 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Fri Jul 19 19:05:27 IST 2019<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:27</td>
+<td title="Message">Suite is being initiated.</td>
+</tr>
+
+<tr>
+<td>6606</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:33</td>
+<td title="Message">dashboardTitleVerification is being initiated.</td>
+</tr>
+
+<tr>
+<td>6668</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:39</td>
+<td title="Message">dashboardTitleVerification has been passed!</td>
+</tr>
+
+<tr>
+<td>13856</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:33</td>
+<td title="Message">navigateToLocation is being initiated.</td>
+</tr>
+
+<tr>
+<td>38300</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>FATAL</strong></font></td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:59</td>
+<td title="Message">navigateToLocation has been skipped!</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.WebDriverException: chrome not reachable
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  (Session info: chrome=75.0.3770.142)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Command duration or timeout: 0 milliseconds
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'INDTAPPL171-001', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: org.openqa.selenium.chrome.ChromeDriver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\bikramb\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64552}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Session ID: 42220bca01e3d872b98be78e582871a8
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*** Element info: {Using=xpath, value=//a[@onclick=&quot;RedirectHeaderMenu('/Abacus.Manager.Web/AM/Users');&quot;]}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.pages.BaseClass.waitElementToBeClickable(BaseClass.java:22)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.pages.DashBoard.clickOnSetting(DashBoard.java:55)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.test.LocationTest.navigateToLocation(LocationTest.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:505)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuites(TestNG.java:1049)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.run(TestNG.java:1017)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</td></tr>
+
+<tr>
+<td>43326</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:33</td>
+<td title="Message">navigateToLocation is being initiated.</td>
+</tr>
+
+<tr>
+<td>83752</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>FATAL</strong></font></td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:59</td>
+<td title="Message">navigateToLocation has been skipped!</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@onclick=&quot;RedirectHeaderMenu('/Abacus.Manager.Web/AM/Users');&quot;]' (tried for 40 second(s) with 500 milliseconds interval)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.pages.BaseClass.waitElementToBeClickable(BaseClass.java:22)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.pages.DashBoard.clickOnSetting(DashBoard.java:55)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.test.LocationTest.navigateToLocation(LocationTest.java:30)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:505)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuites(TestNG.java:1049)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.run(TestNG.java:1017)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@onclick=&quot;RedirectHeaderMenu('/Abacus.Manager.Web/AM/Users');&quot;]&quot;}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  (Session info: chrome=75.0.3770.142)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Command duration or timeout: 0 milliseconds
+<br>&nbsp;&nbsp;&nbsp;&nbsp;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'INDTAPPL171-001', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: org.openqa.selenium.chrome.ChromeDriver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\bikramb\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64596}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Session ID: d43a62b91873731586f854a1e62216f7
+<br>&nbsp;&nbsp;&nbsp;&nbsp;*** Element info: {Using=xpath, value=//a[@onclick=&quot;RedirectHeaderMenu('/Abacus.Manager.Web/AM/Users');&quot;]}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:686)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:682)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	... 28 more
+</td></tr>
+
+<tr>
+<td>88780</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:33</td>
+<td title="Message">navigateToLocation is being initiated.</td>
+</tr>
+
+<tr>
+<td>136887</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:33</td>
+<td title="Message">TC_001 is being initiated.</td>
+</tr>
+
+<tr>
+<td>136894</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:39</td>
+<td title="Message">TC_001 has been passed!</td>
+</tr>
+
+<tr>
+<td>156402</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#993300"><strong>FATAL</strong></font></td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:59</td>
+<td title="Message">clickOnCreate has been skipped!</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.WebDriverException: chrome not reachable
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  (Session info: chrome=75.0.3770.142)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Command duration or timeout: 0 milliseconds
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'INDTAPPL171-001', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: org.openqa.selenium.chrome.ChromeDriver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\bikramb\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64701}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Session ID: 2f392d93ce899eff297ee231f3ef03fb
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.abacus.test.BaseTest.configuratio(BaseTest.java:28)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Unknown Source)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestRunner.run(TestRunner.java:505)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.runSuites(TestNG.java:1049)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.TestNG.run(TestNG.java:1017)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</td></tr>
+
+<tr>
+<td>156926</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.abacus.utils.ListenUtility category">com.abacus.utils.ListenUtility</td>
+<td>ListenUtility.java:65</td>
+<td title="Message">Suite is being terminated.</td>
+</tr>

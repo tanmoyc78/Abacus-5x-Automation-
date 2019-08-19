@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <encoding>UTF-8</encoding>
+        <enableTimeline>true</enableTimeline>
+        <protocol>https</protocol>
+        <documentTitle>ARC Facilities Automation Suite</documentTitle>
+        <reportName>Document Tagging</reportName>
+        <enableOfflineMode>true</enableOfflineMode>
+    </configuration>
+</extentreports>

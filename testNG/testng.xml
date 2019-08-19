@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.abacus.utils.ListenUtility" />
+		<listener class-name="com.abacus.utils.ExtentReporter" />
+		<listener class-name="com.abacus.utils.RetryListener" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.abacus.test.DashboardTest"/>
+      <class name="com.abacus.test.LocationTest"/>
+      <class name="com.abacus.test.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
